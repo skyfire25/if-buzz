@@ -1,9 +1,22 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+let number = getInput(0)
 
+if(number % 3){
+return 'Fizz'
+}else if(number % 5){
+return 'Buzz'
+}else if(number % 3 && number % 5){
+return 'FizzBuzz'
+}else if(number % !3 && number % !5){
+return number
+}
 
-
+getInput(1)
+getInput(3);
+getInput(5);
+getInput(3,5)
 
 
 /*******************************************************************************
